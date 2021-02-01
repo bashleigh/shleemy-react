@@ -2843,6 +2843,14 @@ react-test-renderer@^17.0.1:
     react-shallow-renderer "^16.13.1"
     scheduler "^0.20.1"
 
+react@^17.0.1:
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz#6e0600416bd57574e3f86d92edba3d9008726127"
+  integrity sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
 read-pkg-up@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-7.0.1.tgz#f3a6135758459733ae2b95638056e1854e7ef507"
@@ -3092,10 +3100,10 @@ shellwords@^0.1.1:
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha512-vFwSUfQvqybiICwZY5+DAWIPLKsWO31Q91JSKl3UYv+K5c2QRPzn0qzec6QPu1Qc9eHYItiP3NdJqNVqetYAww==
 
-shleemy@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/shleemy/-/shleemy-1.1.1.tgz#af679b8483315e0a99182e1ce447a552117dd17f"
-  integrity sha512-Darh9mZEiQcfeO+Hi7Ww1uuM1ayV8ONIOBzD0MRqLPv341Y/92jrKee4Jr4EBafwHv3tQx1QXtPro335m7sSmA==
+shleemy@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/shleemy/-/shleemy-1.2.1.tgz#6cdcf622db6f271082678bc5b03d6b944e661be8"
+  integrity sha512-bK41ujGOsSMsV3MOg/DkW4RFQ6iGP5rZ0z/IL+IHIdb80Vb0GDEsrnOs4sl/TvD/FoX9Gx0LOgTDXH+Ctc8zLg==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.3"
