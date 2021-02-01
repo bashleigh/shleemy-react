@@ -1,5 +1,5 @@
 # Shleemy React 
-Wrapper for (shleemy)[github.com/bashleigh/shleemy] interval factory
+Wrapper for [shleemy](github.com/bashleigh/shleemy) interval factory
 
 ## Install
 
