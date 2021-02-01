@@ -1,0 +1,18 @@
+{
+  "name": "shleemy-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bashleigh/shleemy-react.git",
+  "author": "Aaryanna Simonelli <ashleighsimonelli@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "shleemy": "^1.1.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1"
+  }
+}
