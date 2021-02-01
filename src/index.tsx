@@ -6,6 +6,7 @@ export const Shleemy = ({
   rounding,
   toDate,
   humanReadable,
+  className,
 }: {
   date: Date | string;
   rounding?: 'ceil' | 'floor';
@@ -13,7 +14,8 @@ export const Shleemy = ({
   humanReadable?: {
     future?: (value: number, interval: TimeIntervalLabel) => string;
     past?: (value: number, interval: TimeIntervalLabel) => string;
-  },
+  };
+  className?: string;
 }) => {
   const interval = shleemy(date, {
     toDate,
@@ -24,5 +26,5 @@ export const Shleemy = ({
     },
   });
 
-  return (<>{interval}</>);
+  return className? (<span className={className}>{interval}</span>) : (<>{interval}</>);
 };
