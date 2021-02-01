@@ -1,5 +1,5 @@
 # Shleemy React 
-Wrapper for [shleemy](github.com/bashleigh/shleemy) interval factory
+Wrapper for [shleemy](https://github.com/bashleigh/shleemy) interval factory
 
 ## Install
 
@@ -27,3 +27,17 @@ Outputs
 
 name | price | 12 days ago
 
+### Options
+
+```tsx
+<Shleemy
+  date={created}
+  rounding="floor"
+  toDate={new Date()}
+  className="shleemy-is-so-cool-and-shit"
+  humanReadable={{
+    future: (value: number, interval: TimeIntervalLabel) => `starting in ${value} ${ShleemyInterval.pluralInterval(value, interval)}`,
+    future: (value: number, interval: TimeIntervalLabel) => `created ${value} ${ShleemyInterval.pluralInterval(value, interval)} ago`,
+  }}
+/>
+```
