@@ -1,5 +1,5 @@
-import React from 'react';
-import { shleemy, TimeIntervalLabel } from 'shleemy';
+import React from "react";
+import { shleemy, TimeIntervalLabel } from "shleemy";
 
 export const Shleemy = ({
   date,
@@ -9,7 +9,7 @@ export const Shleemy = ({
   className,
 }: {
   date: Date | string;
-  rounding?: 'ceil' | 'floor';
+  rounding?: "ceil" | "floor";
   toDate?: string | Date;
   humanReadable?: {
     future?: (value: number, interval: TimeIntervalLabel) => string;
@@ -26,5 +26,9 @@ export const Shleemy = ({
     },
   });
 
-  return className? (<span className={className}>{interval}</span>) : (<>{interval}</>);
+  return className ? (
+    <span className={className}>{interval}</span>
+  ) : (
+    <>{interval}</>
+  );
 };
